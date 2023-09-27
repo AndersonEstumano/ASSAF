@@ -1,0 +1,65 @@
+/* Estilos para o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+/* Estilos para o cabeçalho */
+header {
+    background-color: #1e90ff;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Estilos para a navegação */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #1e90ff;
+}
+
+/* Estilos para as seções */
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para o rodapé */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #1e90ff;
+    color: #fff;
+}
+
+/* Estilos para links dentro das seções */
+section a {
+    color: #1e90ff;
+}
+
+/* Estilos para links no rodapé */
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Estilos para cabeçalhos das seções */
+section h2 {
+    color: #1e90ff;
+}
