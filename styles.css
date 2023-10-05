@@ -1,65 +1,86 @@
-/* Estilos para o corpo da página */
+/* Estilo global */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
 }
 
-/* Estilos para o cabeçalho */
+html {
+      scroll-behavior: smooth;
+    }
+
 header {
-    background-color: #1e90ff;
+    background-color: #db2f2f;
     color: #fff;
-    text-align: center;
     padding: 20px;
 }
 
-/* Estilos para a navegação */
-nav ul {
-    list-style-type: none;
-    padding: 0;
+.header-content {
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
 }
 
 nav li {
     display: inline;
-    margin-right: 20px;
+    margin: 0 20px; /* Espaçamento entre os itens */
+    white-space: nowrap; /* Adiciona esta linha para que os itens não quebrem linha */
 }
 
 nav a {
     text-decoration: none;
-    color: #1e90ff;
+    color: #fff;
 }
 
-/* Estilos para as seções */
+i {
+    margin-right: 5px; /* Espaçamento entre o ícone e o texto */
+}
+
 section {
-    margin: 20px;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-/* Estilos para o rodapé */
-footer {
+    margin: 20px 0;
     text-align: center;
-    padding: 10px;
-    background-color: #1e90ff;
-    color: #fff;
 }
 
-/* Estilos para links dentro das seções */
-section a {
-    color: #1e90ff;
-}
-
-/* Estilos para links no rodapé */
-footer a {
-    color: #fff;
-    text-decoration: none;
-}
-
-/* Estilos para cabeçalhos das seções */
 section h2 {
-    color: #1e90ff;
+    font-size: 24px;
+    color: #35495E;
+}
+
+footer {
+    background-color: #35495E;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+footer ul {
+    list-style: none; /* Adiciona esta linha para remover o bullet point da lista */
+    padding: 0;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+footer ul li a i {
+    display: none; /* Adiciona esta linha para remover os ícones dos links */
+
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
 }
